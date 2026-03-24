@@ -4,10 +4,11 @@ import requests
 from collections import deque
 from ultralytics import YOLO
 
+
 # =====================
 # CONFIG
 # =====================
-RTSP_URL = "rtsp://admin:Admin%402026@192.168.1.100:554"
+RTSP_URL = "rtsp://admin:Admin%402026@192.168.1.122:554"
 
 ESP32_ALERT_URL = "http://192.168.1.103/alert"
 ESP32_CLEAR_URL = "http://192.168.1.103/clear"
